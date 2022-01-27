@@ -1,0 +1,31 @@
+{
+  "name": "pimex-calendar-widget",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "postinstall": "npm run build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1",
+    "firebase": "^8.10.0",
+    "v-calendar": "^2.3.2",
+    "vue": "^2.6.11",
+    "vue-nl2br": "^0.1.2",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "sass": "^1.46.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
